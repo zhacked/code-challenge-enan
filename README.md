@@ -33,4 +33,8 @@ project.
    - GET /customers/{customerId}  (retrieve more details of a single customer.
 The response should contain)
 
+## command to save in database 
+  - php aritsan db:seed
+    or
+  - php artisan customers:import
 Thankyou !
