@@ -34,7 +34,10 @@ project.
 The response should contain)
 
 ## command to save in database 
-  - php aritsan db:seed
-    or
-  - php artisan customers:import
+      - php aritsan db:seed
+        or
+      - php artisan customers:import
+
+## test
+    - php artisan test
 Thankyou !
