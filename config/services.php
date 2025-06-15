@@ -35,4 +35,10 @@ return [
         ],
     ],
 
+    'randomuser' => [
+        'url' => env('RANDOMUSER_API_URL', 'https://randomuser.me/api/'),
+        'results' => env('RANDOMUSER_RESULTS', 100),
+        'nat' => env('RANDOMUSER_NAT', 'AU'),
+    ],
+
 ];
