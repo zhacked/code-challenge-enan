@@ -28,5 +28,9 @@ project.
        - DB_PASSWORD=your database password
  -  php artisan customers:import
 
+ ## API
+   - GET /customers (retrieve the list of all customers from the database.)
+   - GET /customers/{customerId}  (retrieve more details of a single customer.
+The response should contain)
 
 Thankyou !
